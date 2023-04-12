@@ -214,7 +214,7 @@ Examples:
 * `group_create g/CS2103T`
 * `group_create g/CS2101`
 
-### [Deleting a group : `group_delete`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=108)
+### [Deleting a group : `group_delete`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=317)
 
 Deletes an existing group from the address book.
 
@@ -228,13 +228,13 @@ Examples:
 * `group_delete 1`
 * `group_delete 2`
 
-### List all groups: `group_list`
+### [List all groups: `group_list`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=423)
 
 Shows a list of all existing groups' name in the address book.
 
 Format: `group_list`
 
-### Find a group: `group_find`
+### [Find a group: `group_find`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=383)
 
 Finds persons in groups whose group names contain any of the given keywords.
 
