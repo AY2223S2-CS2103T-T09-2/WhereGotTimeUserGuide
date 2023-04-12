@@ -3,6 +3,8 @@ layout: page
 title: User Guide
 ---
 
+<img src="images/clockpicture.png" width="400" />
+
 Where Got Time (WGT) **a perfect desktop app** dedicate to managing your events and plan out your meetings with your friends and family. It is developed for university student, who can type fast, to efficiently keep track of all of their events and their friends' events **via a Command Line Interface (CLI)** while still having the benefits of a Graphical User Interface (GUI). If you can type fast, WGT can help you find a date that all your friends are free to meet instead of having to manually compare timetables with each other.
 
 * Table of Contents
