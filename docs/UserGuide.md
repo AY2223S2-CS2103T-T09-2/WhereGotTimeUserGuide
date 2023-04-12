@@ -60,7 +60,7 @@ Where Got Time (WGT) **a perfect desktop app** dedicate to managing your events 
 
 **WARNING: Directly editing the saved json file may cause the app to malfunction**
 
-[Demo video](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?usp=sharing) for the features.
+[Demo video](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?usp=sharing) for the features. Note that headers for each feature is a clickable link to that feature's demo.
 
 <div markdown="block" class="alert alert-info">
 
