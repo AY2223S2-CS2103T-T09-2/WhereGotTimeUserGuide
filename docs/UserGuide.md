@@ -162,7 +162,7 @@ Examples:
 *  `edit 3 m/ t/Borrowed 10 dollars` Edit the tags of the 3rd person to be `Borrowed 10 dollars` plus the existing tag of that person.
 *  `edit 3 m/ g/CS2103T` Edit the groups of the 3rd person to be `CS2103T` plus the existing groups of that person.
 
-### Locating persons by name: `find`
+### [Locating persons by name: `find`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=355)
 
 Finds persons whose names contain any of the given keywords.
 
