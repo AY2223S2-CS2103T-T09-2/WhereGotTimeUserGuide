@@ -440,6 +440,9 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: How do I transfer my data to another Computer?<br>
 **A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous WhereGotTime home folder.
 
+**Q**: Am I allowed to edit the json file directly?<br>
+**A**: No. Directly editing the saved json file may cause the app to malfunction.
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
