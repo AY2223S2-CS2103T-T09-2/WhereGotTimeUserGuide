@@ -116,7 +116,7 @@ Exits the program.
 Format: `exit`
 
 ## Person-related commands
-### Adding a person: `add`
+[### Adding a person: `add`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=108)
 
 Adds a person to the address book.
 
