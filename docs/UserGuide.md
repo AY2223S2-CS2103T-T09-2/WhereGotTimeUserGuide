@@ -59,7 +59,7 @@ Where Got Time (WGT) **a perfect desktop app** dedicate to managing your events 
 ## Features
 
 <div markdown="span" class="alert alert-warning">:exclamation: **WARNING:**
-Directly editing the saved json file may cause the app to malfunction
+Directly editing the saved json file may cause the app to malfunction.
 </div>
 
 [Demo video](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?usp=sharing) for the features. 
