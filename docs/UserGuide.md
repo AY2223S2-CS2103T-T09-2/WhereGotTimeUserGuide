@@ -195,7 +195,7 @@ Examples:
 * `find Betsy` followed by `delete 1` deletes the 1st person in the results of the `find` command.
 
 ## Group-related commands
-### Creating a group : `group_create`
+### [Creating a group : `group_create`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=293)
 
 Create a group in the address book.
 
@@ -214,7 +214,7 @@ Examples:
 * `group_create g/CS2103T`
 * `group_create g/CS2101`
 
-### Deleting a group : `group_delete`
+### [Deleting a group : `group_delete`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=108)
 
 Deletes an existing group from the address book.
 
