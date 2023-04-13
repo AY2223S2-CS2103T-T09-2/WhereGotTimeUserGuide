@@ -445,6 +445,9 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: Am I allowed to edit the json file directly?<br>
 **A**: No. Directly editing the saved json file may cause the app to malfunction.
 
+**Q**: I tried double-clicking on the jar file to start the application and all of my data seems to be lost. What do I do?<br>
+**A**: Clicking on the jar file to run the application can have unintended effects thus we recommend using the terminal/commmand prompt approach. As for your data, you do not have to worry. Simply run the application with the terminal/command approach and you should see your data being displayed again. Ensure that you do not delete or modify the data file and you will be fine!
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
