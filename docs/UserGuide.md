@@ -445,6 +445,9 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: Am I allowed to edit the json file directly?<br>
 **A**: No. Directly editing the saved json file may cause the app to malfunction.
 
+**Q**: If Where Got Time crashes, is my data saved?
+**A**: Yes, Where Got Time will automatically save your data to files after each command. Therefore, data will be saved no matter how you exit the program, even if it crashes! 
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
