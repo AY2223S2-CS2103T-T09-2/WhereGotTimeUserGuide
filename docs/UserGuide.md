@@ -265,7 +265,7 @@ Note that only **hourly** events can be created.
 **Note** You will not be able to create an isolated event or recurring event if there is existing event happening in the same time period. 
 For example, `17:00` is a valid timing and `17:30` is an invalid timing
 
-#### 1) Isolated event: `event_create`
+#### 1) [Isolated event: `event_create`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=435)
 Format: `event_create INDEX ie/EVENT_NAME f/START_DATETIME t/END_DATETIME`
 
 * `INDEX` refers to the index of the person to add the given isolated event
@@ -282,7 +282,7 @@ info following the latest attribute (in the example case, WGT will take event na
 Examples:
 * `event_create 1 ie/CS2101 Presentation f/02/02/2025 16:00 t/28/02/2025 18:00`
 
-#### 2) Weekly Recurring Event `event_create_recur`
+#### 2) [Weekly Recurring Event `event_create_recur`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=543)
 Format: `event_create_recur INDEX re/EVENT_NAME d/DAY_OF_WEEK f/START_TIME t/END_TIME`
 
 * `INDEX` refers to the index of the person whose recurring event list will be added with the given recurring event
@@ -303,7 +303,7 @@ Recurring event consisting of the whole day from `00:00` to `00:00` is not allow
 
 ### Deleting an event:
 Delete either an isolated or a weekly recurring event
-#### 1) Delete an isolated event: `ie_delete`
+#### 1) [Delete an isolated event: `ie_delete`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=524)
 
 Deletes an existing isolated event from a person's isolated event list in WGT.
 
@@ -320,7 +320,7 @@ Expired events (events' end date is before the current date time) will be automa
 Examples:
 * `ie_delete 1 1`
 
-#### 2) Delete recurring event: `re_delete`
+#### 2) [Delete recurring event: `re_delete`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=617)
 Deletes a recurring event from a person's recurring event list in WGT.
 
 Format: `re_delete PERSON_INDEX EVENT_INDEX`
@@ -336,7 +336,7 @@ Edit the attributes of either an isolated event or a weekly recurring event
 
 **Note** You will not be able to edit an isolated event or recurring event time period if there is existing event happening in the particular time period.
 
-#### 1) Edit an isolated event: `ie_edit`
+#### 1) [Edit an isolated event: `ie_edit`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=497)
 
 Edit an existing isolated event from person's isolated event list in WGT.
 
@@ -354,7 +354,7 @@ Examples:
 * `ie_edit 1 1 ie/Biking`
 * `ie_edit 1 1 f/09/03/2024 15:00`
 
-#### 2) Edit a recurring event: `re_edit`
+#### 2) [Edit a recurring event: `re_edit`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=594)
 Edit an existing recurring event from person's recurring event list in the address book.
 
 Format: `re_edit PERSON_INDEX EVENT_INDEX [re/NAME] [d/DAY_OF_WEEK] [f/START_TIME] [t/END_TIME]`
@@ -371,7 +371,7 @@ Examples:
 * `re_edit 1 1 d/Tuesday`
 * `re_edit 1 1 t/14:00`
 
-### Find free time slots: `free`
+### [Find free time slots: `free`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=725)
 
 Displays the time slots in a week when all members of the specified group are free (no events).
 
@@ -397,7 +397,7 @@ Example:
 3) However, if you would like to change the start date, you can indicate the `START_DATE` but it is optional.
 
 ## Data-related commands
-### Importing data : `import`
+### [Importing data : `import`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=681)
 Import one person into your address book to update their details and events.
 
 Format: `import`
@@ -409,7 +409,7 @@ Format: `import`
 * If the imported person is already an entry in your address book with the same name (case-sensitive), their phone number, address, email as well as their event lists will be updated to the imported data.
 * If the imported person is not yet an entry in your address book, a new entry will be created with the imported person's details (excluding tags and groups).
 
-### Export a person: `export`
+### [Export a person: `export`](https://drive.google.com/file/d/1XuYsu0c8_bqnjhY5ssS_eBkieym1VlTC/view?t=643)
 Export a person's details from the address book.
 
 Format: `export [PERSON_INDEX]`
@@ -447,6 +447,10 @@ If your changes to the data file makes its format invalid, the app will discard 
 
 **Q**: If Where Got Time crashes, is my data saved?
 **A**: Yes, Where Got Time will automatically save your data to files after each command. Therefore, data will be saved no matter how you exit the program, even if it crashes! 
+
+**Q**: I tried double-clicking on the jar file to start the application and all of my data seems to be lost. What do I do?<br>
+**A**: Clicking on the jar file to run the application can have unintended effects thus we recommend using the terminal/commmand prompt approach. As for your data, you do not have to worry. Simply run the application with the terminal/command approach and you should see your data being displayed again. Ensure that you do not delete or modify the data file and you will be fine!
+
 
 --------------------------------------------------------------------------------------------------------------------
 
