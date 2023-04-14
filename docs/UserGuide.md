@@ -457,6 +457,9 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: Why can't I add events? <br>
 **A**: WhereGotTime doesn't allow you to add events if they have conflicts in time with another event either in the isolated event list or the recurring event list. You'll have to delete the clashing events if you want to add your new event!
 
+**Q**: How do I import multiple persons?<br>
+**A**: Place one of your export file into the `data` folder and import first. To import another person, replace the existing export file with a new export file and import again. Repeat until all persons are imported.
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
