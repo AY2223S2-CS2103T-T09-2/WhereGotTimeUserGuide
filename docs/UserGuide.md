@@ -448,6 +448,9 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: I tried double-clicking on the jar file to start the application and all of my data seems to be lost. What do I do?<br>
 **A**: Clicking on the jar file to run the application can have unintended effects thus we recommend using the terminal/commmand prompt approach. As for your data, you do not have to worry. Simply run the application with the terminal/command approach and you should see your data being displayed again. Ensure that you do not delete or modify the data file and you will be fine!
 
+**Q**: The app does not seem ot work and keeps returning me errors! What should I do?<br>
+**A**: First, check if you have the latest release from our [Github](https://github.com/AY2223S2-CS2103T-T09-2/tp/releases). Make sure that the jar file is in an empty folder and try again! Feel free to contact us via our Github page if any issues continue to persist.
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
@@ -472,4 +475,5 @@ If your changes to the data file makes its format invalid, the app will discard 
 | **Recurring Event delete** | `re_delete PERSON_INDEX EVENT_INDEX`                                                                                                                                  |
 | **Recurring Event update** | `re_edit PERSON_INDEX EVENT_INDEX [re/NAME] [d/DAY_OF_WEEK] [f/START_TIME] [t/END_TIME]`                                                                              |
 | **Export person**          | `export [PERSON_INDEX]`                                                                                                                                                  |                                                                                                                                                     |
+| **Import person**          | `import`                                                                                                                                                                 |                                                                                                                                                     |
 | **Free**                   | `free GROUP_INDEX [f/START_DATE]`                                                                                                                                           |
