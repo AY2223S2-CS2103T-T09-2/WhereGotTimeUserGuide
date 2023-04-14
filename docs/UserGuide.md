@@ -451,7 +451,7 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: The app does not seem ot work and keeps returning me errors! What should I do?<br>
 **A**: First, check if you have the latest release from our [Github](https://github.com/AY2223S2-CS2103T-T09-2/tp/releases). Make sure that the jar file is in an empty folder and try again! Feel free to contact us via our Github page if any issues continue to persist.
 
-**Q**: If Where Got Time crashes, is my data saved?
+**Q**: If Where Got Time crashes, is my data saved?<br>
 **A**: Yes, Where Got Time will automatically save your data to files after each command. Therefore, data will be saved no matter how you exit the program, even if it crashes! 
 
 --------------------------------------------------------------------------------------------------------------------
