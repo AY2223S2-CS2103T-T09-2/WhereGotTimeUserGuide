@@ -454,6 +454,9 @@ If your changes to the data file makes its format invalid, the app will discard 
 **Q**: If Where Got Time crashes, is my data saved?<br>
 **A**: Yes, Where Got Time will automatically save your data to files after each command. Therefore, data will be saved no matter how you exit the program, even if it crashes! 
 
+**Q**: Why can't I add events? <br>
+**A**: WhereGotTime doesn't allow you to add events if they have conflicts in time with another event either in the isolated event list or the recurring event list. You'll have to delete the clashing events if you want to add your new event!
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command summary
